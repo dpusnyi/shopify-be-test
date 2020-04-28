@@ -1,0 +1,24 @@
+{
+  "name": "shopify-middlevar-server",
+  "description": "shopify-middlevar-server",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "nodemon": "nodemon"
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "dotenv": "^5.0.1",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.3",
+    "nonce": "^1.0.4",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5",
+    "uuid": "^3.1.0"
+  },
+  "engines": {
+    "node": "12.16.2"
+  }
+}
